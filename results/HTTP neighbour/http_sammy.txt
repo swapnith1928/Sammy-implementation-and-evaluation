@@ -1,0 +1,10 @@
+Request 1: 0.873824s
+Request 2: 1.848770s
+Request 3: 1.230788s
+Request 4: 1.375418s
+Request 5: 0.849981s
+Request 6: 0.849225s
+Request 7: 3.670599s
+Request 8: 1.851980s
+Request 9: 4.336770s
+Request 10: 1.560086s

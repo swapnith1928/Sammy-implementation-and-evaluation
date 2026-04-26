@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sammy Pacing Client</title>
+    <script src="https://cdn.dashjs.org/v4.7.0/dash.all.min.js"></script>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        video { width: 640px; background: black; }
+        .controls { margin: 15px 0; }
+        #logs { background: #f4f4f4; padding: 15px; border-radius: 5px; width: 610px; font-family: monospace; }
+    </style>
+</head>
+<body>
+
+    <video id="video-player" controls muted></video>
+    <button onclick="downloadTelemetryCSV()" style="margin-top: 10px;">Download CSV Log</button>
+    <div class="controls">
+        <label>
+            <input type="checkbox" id="enable-sammy" checked=true> 
+            Enable Sammy Pacing
+        </label>
+    </div>
+    
+    <div id="logs">Waiting for stream data...</div>
+    <script src="./app.js"></script>
+
+</body>
+</html>
